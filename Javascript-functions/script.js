@@ -80,5 +80,6 @@ transformer('Javascript is the best!',oneWord);
 const high5 = function(){
   console.log('hi');
 }
+const names = ['chithra','devi','meera'];
 
-['chithra','devi','meera'].forEach(high5);
+names.forEach(high5);
