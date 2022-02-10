@@ -1,0 +1,80 @@
+
+To mutate original array
+=========================
+
+ -> add to original
+    .push(end)
+    .unshift(start)
+
+-> Remove from original
+   .pop(end)
+   .shift(start)
+   .splice(any)
+
+-> others
+
+   .reverse
+   .sort
+   .fill
+
+A new array
+===========
+-> computed from original
+   .map
+
+-> Filtered using condition
+
+   .filter
+
+-> Portion of original
+   .slice
+
+-> Adding original to other
+  .concat
+
+->Flattening the original
+  .flat
+  .flatMap
+
+
+An array index
+===============
+
+->Based on value
+
+.indexOf
+
+->Based on test condition
+ .findIndex
+
+An array element
+=================
+
+-> Based on test condition
+  .find
+
+Know if array includes
+=======================
+->Based on value
+.includes
+
+->Based on test condition
+ .some
+ .every
+
+
+ A new string
+ =============
+  Based on separator string
+    .join
+
+To transform to value
+=====================
+
+.reduce
+
+To just loop
+=============
+
+.forEach
+ 
